@@ -1,0 +1,8 @@
+h1 {
+  color: blue;
+}
+
+#grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+}
