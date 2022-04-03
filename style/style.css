@@ -4,5 +4,14 @@ h1 {
 
 #grid-container {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-gap: 40px;
+  grid-template-rows: repeat(16, 1px);
+  grid-template-columns: repeat(16, 1px);
+  border: 1px black solid;
+}
+
+.cell {
+  width: 35px;
+  height: 35px;
+  /* display: inline-block; */
 }
